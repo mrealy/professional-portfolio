@@ -1,0 +1,26 @@
+li {
+    padding: 0px 4px 0px 4px;
+}
+
+.thumbnail {
+    max-height: 64px;
+    display: inline-block;
+    margin: 0px 5px 0px 5px;
+}
+#nav-items {
+    position: relative;
+    top: 18px;
+    left: 750px;
+}
+.headshot {
+    padding: 5px 0px 15px;
+}
+
+.proj-details-btn {
+    position: relative;
+    top: 29px;
+}
+
+.project-image {
+    max-width: 280px;
+}
