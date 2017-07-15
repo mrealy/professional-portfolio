@@ -21,6 +21,11 @@ li {
     top: 29px;
 }
 
+.proj-details-btn:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
 .project-image {
     max-width: 280px;
 }
