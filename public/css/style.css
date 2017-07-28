@@ -13,7 +13,7 @@ li {
     left: 750px;
 }
 .headshot {
-    padding: 5px 0px 15px;
+    padding: 5px 0px 5px;
 }
 
 .proj-details-btn {
@@ -28,4 +28,16 @@ li {
 
 .project-image {
     max-width: 280px;
+}
+
+hr {
+    margin: 10px;
+}
+h4 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#personal {
+    text-align: right;
 }

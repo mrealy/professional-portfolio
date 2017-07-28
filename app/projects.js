@@ -6,7 +6,7 @@ var projects = [
             screenshots: ["/img/tender-1.PNG", "/img/tender-2.PNG", "/img/tender-3.PNG"],
             tools: "HTML, CSS, Javascript, jQuery, Firebase, Spoonacular API",
             github: "https://github.com/mrealy/tender",
-            heroku: "not deployed"            
+            heroku: "https://tender-recipes.herokuapp.com/comparison.html"            
         },
         {
             title: "who ARE you?",
@@ -16,6 +16,15 @@ var projects = [
             tools: "Node, express, handlebars, Sequelize, passport",
             github: "https://github.com/thensle/whoAreYou_Game",
             heroku: "not deployed"            
+        },
+        {
+            title: "ShuttleExtravaganza!",
+            short: "App for finding and saving upcoming events that helps users find other app users near them that are also interested in the same events.  Find a ride or a friend!",
+            goals: "App for finding and saving upcoming events that helps users find other app users near them that are also interested in the same events.  Find a ride or a friend!",
+            screenshots: ["/img/Extravaganza-1.PNG", "/img/Extravaganza-2.PNG", "/img/Extravaganza-3.PNG"],
+            tools: "Node, express, React, Mongoose, Seatgeek API, Google Maps API",
+            github: "https://github.com/linhng15/Extravaganza",
+            heroku: "https://agile-chamber-59717.herokuapp.com/"            
         }
 ]
 
