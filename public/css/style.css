@@ -76,6 +76,7 @@ h4 {
 }
 
 .frame {
+    margin-top: 20px;
     background-color: white;
     border: 1px solid #007ab9;
     border-radius: 10px;
