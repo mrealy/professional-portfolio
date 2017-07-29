@@ -5,7 +5,7 @@ var Main = React.createClass({
     render: function() {
         return (
             <div className="main-container">
-                <nav className="navbar navbar-default" role="navigation">
+                <nav className="navbar navbar-default spaceless" role="navigation">
                     <div className="container-fluid">
                         <div>
                             <div className="navbar-header">

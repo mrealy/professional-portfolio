@@ -6,7 +6,7 @@ var projects = [
             screenshots: ["/img/tender-1.PNG", "/img/tender-2.PNG", "/img/tender-3.PNG"],
             tools: "HTML, CSS, Javascript, jQuery, Firebase, Spoonacular API",
             github: "https://github.com/mrealy/tender",
-            heroku: "https://tender-recipes.herokuapp.com/comparison.html"            
+            heroku: "https://tender-recipes.herokuapp.com/"            
         },
         {
             title: "who ARE you?",
