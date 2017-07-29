@@ -1,3 +1,9 @@
+body {
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 li {
     padding: 0px 4px 0px 4px;
 }
@@ -9,21 +15,36 @@ li {
 }
 #nav-items {
     position: relative;
-    top: 18px;
+    top: 8px;
     left: 750px;
 }
+.nav-links:hover {
+    background-color: rgba(97,122,139, 0.2) !important;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.nav-links:focus {
+    background-color: rgba(97,122,139, 0.2) !important;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
 .headshot {
-    padding: 5px 0px 5px;
+    
 }
 
 .proj-details-btn {
     position: relative;
     top: 29px;
+    padding: 2px 5px 2px 5px;
+    border: 1px solid;
+    border-radius: 5px;
 }
 
 .proj-details-btn:hover {
     color: blue;
     text-decoration: underline;
+    box-shadow: 1px 1px 1px;
 }
 
 .project-image {
@@ -31,7 +52,8 @@ li {
 }
 
 hr {
-    margin: 10px;
+    margin: 0px;
+    border-color: #007ab9 !important;
 }
 h4 {
     padding-left: 10px;
@@ -40,4 +62,23 @@ h4 {
 
 #personal {
     text-align: right;
+}
+.spaceless {
+    padding: 0px;
+    margin: 0px;
+}
+.addpadding {
+    padding: 0px 10px 0px 10px;
+}
+.addmargin {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.frame {
+    background-color: white;
+    border: 1px solid #007ab9;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #617a8b;
+    padding: 0px 30px 0px 30px;
 }

@@ -9,12 +9,12 @@ var Main = React.createClass({
                     <div className="container-fluid">
                         <div>
                             <div className="navbar-header">
-                                <a className="navbar-brand" href="/">Michael's Portfolio</a>
+                                <a className="navbar-brand nav-links" href="/">Michael's Portfolio</a>
                             </div>
                             <ul className="nav navbar-nav" id="nav-items">
-                                <li><Link to="/home"> About </Link></li>
-                                <li><Link to="/projects"> Projects </Link></li>
-                                <li> Contact </li>
+                                <li><Link className="nav-links" to="/home"> About </Link></li>
+                                <li><Link className="nav-links" to="/projects"> Projects </Link></li>
+                                <li><Link className="nav-links" to="/resume"> Resume </Link></li>
                             </ul>
                         </div>
                         <div className="pull-right">

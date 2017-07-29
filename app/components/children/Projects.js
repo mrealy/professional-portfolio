@@ -22,22 +22,26 @@ var Projects = React.createClass({
         console.log(project.title);
         this.setState({ toShow: project });
     },
+    childClick: function(event) {
+        this.setState({ toShow: "" });
+    },
     renderProject: function() {
         return this.state.projects.map(function(project, index) {
             return (
                 <div key={index}>
-                    <div className="wrapper">
+                    <hr />
+                    <div className="wrapper addmargin">
                         <div className="row">
                             <div className="col-sm-4">
                                 <img className="project-image" src={project.screenshots[0]} />
                             </div>
                             <div className="row col-sm-8">
                                 <div className="row">
-                                    <div className="col-sm-2">
+                                    <div className="col-sm-10 spaceless">
                                         <h3> {project.title} </h3>
                                     </div>
-                                    <div className="col-sm-10">
-                                        <p onClick={() => this.handleClick(project)} className="proj-details-btn"> Details...</p>
+                                    <div className="col-sm-2">
+                                        <p onClick={() => this.handleClick(project)} className="proj-details-btn"> More...</p>
                                     </div>
                                 </div>
                                 <div className="row">
@@ -54,20 +58,24 @@ var Projects = React.createClass({
     render: function() {
         if (this.state.toShow !== "") {
             return (
-                <Show project={this.state.toShow} />
+                <Show project={this.state.toShow} buttonClick={this.childClick.bind(this)} />
             );
         } else {
             return (
                 <div className="main-container">
                     <div className="row">
                         <div className="col-md-2" />
-                        <div className="col-md-8">
-                            <div className="row">
-                                <h3> Projects </h3>
-                            </div>
-                            <div className="row">
-                                {this.renderProject()}
-                            </div>
+                        <div className="col-md-8 frame">
+                            
+                                <div className="row">
+                                    <h3> Projects </h3>
+                                    <hr />
+                                </div>
+                                
+                                <div className="row">
+                                    {this.renderProject()}
+                                </div>
+                            
                         </div>
                         <div className="col-md-2" />
                     </div>

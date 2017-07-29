@@ -11,6 +11,7 @@ var browserHistory = router.browserHistory;
 var Main = require("../components/Main");
 var Home = require("../components/children/Home");
 var Projects = require("../components/children/Projects");
+var Resume = require("../components/children/Resume");
 var Show = require("../components/children/Show");
 
 module.exports = (
@@ -19,6 +20,7 @@ module.exports = (
             {/* put child components here */}
             <Route path="Home" component={Home} />
             <Route path="Projects" component={Projects} />
+            <Route path="Resume" component={Resume} />
             {/* <Route path="Show" component={Show} /> */}
 
             {/* Index route here */}
