@@ -5,7 +5,9 @@ module.exports = {
 
   // The plain compiled Javascript will be output into this file
   output: {
-    filename: "public/bundle.js"
+    path: __dirname,
+    publicPath: '/',
+    filename: 'bundle.js'
   },
 
   // This section desribes the transformations we will perform
@@ -24,6 +26,9 @@ module.exports = {
         }
       }
     ]
+  },
+  resolve: {
+    extensions: ['', '.js', '.jsx']
   },
   // This lets us debug our react code in chrome dev tools. Errors will have lines and file names
   // Without this the console says all errors are coming from just coming from bundle.js
