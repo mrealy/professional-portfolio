@@ -1,8 +1,18 @@
 body {
     background-image: url("../img/background.jpg");
+    background-repeat:no-repeat;
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:center;
+}
+.row {
+    margin: 0;
+}
+#app {
+    max-height: 100%;
+}
+.main-container {
+    max-height: 100%;
 }
 li {
     padding: 0px 4px 0px 4px;
@@ -13,10 +23,17 @@ li {
     display: inline-block;
     margin: 0px 5px 0px 5px;
 }
+.navbar {
+    border: 1px solid #007ab9;
+    border-top: 0px;
+    width: 100%;
+}
+.navbar-header {
+    position: relative;
+    top: 5px;
+}
 #nav-items {
-    position: absolute;
-    top: 8px;
-    left: 700px;
+
 }
 .nav-links:hover {
     background-color: rgba(97,122,139, 0.2) !important;
@@ -30,9 +47,14 @@ li {
 }
 
 .headshot {
-    
+    max-height: 140px;
 }
-
+#work-text {
+    margin-left: 15px;
+}
+#personal-text {
+    margin-right: 20px;
+}
 .proj-details-btn {
     position: relative;
     top: 29px;
@@ -76,7 +98,7 @@ h4 {
 }
 
 .frame {
-    margin-top: 20px;
+    margin: 20px;
     background-color: white;
     border: 1px solid #007ab9;
     border-radius: 10px;
@@ -86,4 +108,60 @@ h4 {
 
 .embed-responsive {
     padding-bottom:100%;
+}
+.footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 5px 0 5px 0;
+    margin: 0;
+    background-color: #c6d9ec;
+    text-align: center;
+    max-width: 100%;
+}
+
+
+/*====================
+MEDIA RESPONSIVE @ 1135px
+====================*/
+
+/*@media screen and (max-width: 1135px) {
+    #nav-items {
+        position: relative;
+        left: 200px
+    }
+    #work-text {
+        width: 90%;
+        margin-left: 35px;
+    }
+    #personal-text {
+        width: 90%;
+    }
+    .frame {
+        margin-bottom: 10px;
+    }
+}*/
+
+
+/*====================
+MEDIA RESPONSIVE @ 1129px
+====================*/
+
+/*@media screen and (max-width: 1129px) {
+    .navbar {
+        width: 1132px;
+    }
+    #nav-items {
+        position: relative;
+        left: 350px;
+    }
+    body {
+    }
+}*/
+
+@media screen and (max-width: 365px) {
+    h3 {
+        
+    }
 }

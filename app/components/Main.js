@@ -11,13 +11,15 @@ var Main = React.createClass({
                             <div className="navbar-header">
                                 <a className="navbar-brand nav-links" href="/">Michael's Portfolio</a>
                             </div>
+                            
+                        </div>
+                        
+                        <div className="pull-right">
                             <ul className="nav navbar-nav" id="nav-items">
                                 <li><Link className="nav-links" to="/home"> About </Link></li>
                                 <li><Link className="nav-links" to="/projects"> Projects </Link></li>
                                 <li><Link className="nav-links" to="/resume"> Resume </Link></li>
                             </ul>
-                        </div>
-                        <div className="pull-right">
                             <a href="https://github.com/mrealy">
                                 {/* github img icon */}
                                 <img className="github thumbnail" src="/img/github-128.png" alt="github" />

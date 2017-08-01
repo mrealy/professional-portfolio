@@ -16,11 +16,11 @@ var Home = React.createClass({
                             <hr />
                             <h4>Work</h4>
                             <hr />
-                            <div className="col-sm-2 addmargin">
-                                <img className="headshot" src="/img/headshot-100x140.jpg" alt="headshot" />
+                            <div className="col-sm-2 spaceless">
+                                <img className="headshot addmargin" src="/img/headshot-100x140.jpg" alt="headshot" />
                             </div>
                             <div className="col-sm-10 addmargin">
-                                <p>Financial Assistant for Northwestern University in the Alumni Relations
+                                <p id="work-text">Financial Assistant for Northwestern University in the Alumni Relations
                                 and Development department. Contributions include identifying/improving onboarding 
                                 inefficiences, creating a travel calculator from compiled/analyzed travel data for 
                                 zero based budgeting, providing ongoing financial reporting and support for over
@@ -34,7 +34,7 @@ var Home = React.createClass({
                             <h4 id="personal"> Personal </h4>
                             <hr />
                             <div className="col-sm-9 addmargin">
-                                <p> Multi-instrumentalist, <a href="https://soundcloud.com/mike-realy">composer</a>, 
+                                <p id="personal-text"> Multi-instrumentalist, <a href="https://soundcloud.com/mike-realy">composer</a>, 
                                 songwriter, and private instructor with a BA in music composition from Columbia College 
                                 '13.   Sought out the Northwestern University Coding Bootcamp in order to learn skills 
                                 for the development of a website for private instrumental lesson planning and sharing. </p>
