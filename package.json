@@ -23,8 +23,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "prod": "NODE_ENV=production node server.js"
+    "start:server": "NODE_ENV=development nodemon ./server.js",
+    "serve": "NODE_ENV=production node ./server.js"
   },
   "repository": {
     "type": "git",
