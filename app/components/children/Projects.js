@@ -31,25 +31,26 @@ var Projects = React.createClass({
                 <div key={index}>
                     <hr />
                     <div className="wrapper addmargin">
-                        <div className="row">
-                            <div className="col-sm-4">
-                                <img className="project-image" src={project.screenshots[0]} />
+                        <div className="row row-eq-height">
+                            <div className="col-md-4">
+                                <div className="project-img-border">
+                                    <img className="project-image" src={project.screenshots[0]} />
+                                </div>
                             </div>
-                            <div className="row col-sm-8">
+                            <div className="col-md-8">
                                 <div className="row">
                                     <div className="col-sm-10 spaceless">
-                                        <h3> {project.title} </h3>
+                                        <h3 className="spaceless"> {project.title} </h3>
                                     </div>
-                                    <div className="col-sm-2">
+                                    <div className="col-sm-2 spaceless">
                                         <p onClick={() => this.handleClick(project)} className="proj-details-btn"> More...</p>
                                     </div>
                                 </div>
                                 <div className="row">
-                                    <p> {project.short} </p>
+                                    <p className="col-sm-12 spaceless"> {project.short} </p>
                                 </div>
                             </div>
                         </div>
-                        
                     </div>
                 </div>
             );
