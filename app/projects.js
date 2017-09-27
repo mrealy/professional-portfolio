@@ -15,7 +15,7 @@ var projects = [
             screenshots: ["/img/whoAREyou-1.PNG", "/img/whoAREyou-2.PNG", "/img/whoAREyou-3.PNG"],
             tools: "Node, express, handlebars, Sequelize, passport",
             github: "https://github.com/thensle/whoAreYou_Game",
-            heroku: "not deployed"            
+            heroku: "https://secure-journey-72741.herokuapp.com/"            
         },
         {
             title: "ShuttleExtravaganza!",
