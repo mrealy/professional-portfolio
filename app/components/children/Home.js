@@ -24,8 +24,7 @@ var Home = React.createClass({
                                 and Development department. Contributions include identifying/improving onboarding 
                                 inefficiences, creating a travel calculator from compiled/analyzed travel data for 
                                 zero based budgeting, providing ongoing financial reporting and support for over
-                                30 teams, and System Support Respresentative for Finance.  Seeking role as developer
-                                or systems analyst to utilize communication, analysis and problem solving skills.</p>
+                                30 teams, and System Support Respresentative for Finance.  Seeking technical, project-oriented role to utilize communication, analysis and problem solving skills.</p>
                             </div>
                         </div>
 
