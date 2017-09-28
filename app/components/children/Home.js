@@ -21,10 +21,10 @@ var Home = React.createClass({
                             </div>
                             <div id="text-frame" className="col-sm-10 addmargin">
                                 <p id="work-text">Financial Assistant for Northwestern University in the Alumni Relations
-                                and Development department. Contributions include identifying/improving onboarding 
+                                and Development (ARD) department. Contributions include identifying/improving onboarding 
                                 inefficiences, creating a travel calculator from compiled/analyzed travel data for 
                                 zero based budgeting, providing ongoing financial reporting and support for over
-                                30 teams, and System Support Respresentative for Finance.  Seeking technical, project-oriented role to utilize communication, analysis and problem solving skills.</p>
+                                30 teams, and Systems Support Respresentative for ARD.  Seeking technical, project-oriented role to utilize communication, analysis and problem solving skills.</p>
                             </div>
                         </div>
 
