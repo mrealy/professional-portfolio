@@ -24,7 +24,7 @@ var Home = React.createClass({
                                 and Development (ARD) department. Contributions include identifying/improving onboarding 
                                 inefficiences, creating a travel calculator from compiled/analyzed travel data for 
                                 zero based budgeting, providing ongoing financial reporting and support for over
-                                30 teams, and Systems Support Respresentative for ARD.  Seeking technical, project-oriented role to utilize communication, analysis and problem solving skills.</p>
+                                30 teams, and a technical Systems Support Respresentative for ARD.  Seeking technical, project-oriented role to utilize communication, analysis and problem solving skills.</p>
                             </div>
                         </div>
 
