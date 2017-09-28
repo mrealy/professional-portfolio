@@ -14,20 +14,22 @@ var Main = React.createClass({
                             
                         </div>
                         
-                        <div className="pull-right">
+                        <div id="nav-buttons" className="pull-right">
                             <ul className="nav navbar-nav" id="nav-items">
                                 <li><Link className="nav-links" to="/home"> About </Link></li>
                                 <li><Link className="nav-links" to="/projects"> Projects </Link></li>
                                 <li><Link className="nav-links" to="/resume"> Resume </Link></li>
                             </ul>
-                            <a href="https://github.com/mrealy">
-                                {/* github img icon */}
-                                <img className="github thumbnail" src="/img/github-128.png" alt="github" />
-                            </a>
-                            <a href="https://www.linkedin.com/in/michael-realy-97421149">
-                                {/* linkedin img icon */}
-                                <img className="linkedin thumbnail" src="/img/linkedin-128.png" alt="linkedin" />
-                            </a>
+                            <div id="social-media-buttons">
+                                <a href="https://github.com/mrealy">
+                                    {/* github img icon */}
+                                    <img className="github thumbnail" src="/img/github-128.png" alt="github" />
+                                </a>
+                                <a href="https://www.linkedin.com/in/michael-realy-97421149">
+                                    {/* linkedin img icon */}
+                                    <img className="linkedin thumbnail" src="/img/linkedin-128.png" alt="linkedin" />
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </nav>

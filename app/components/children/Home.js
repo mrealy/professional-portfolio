@@ -16,10 +16,10 @@ var Home = React.createClass({
                             <hr />
                             <h4>Work</h4>
                             <hr />
-                            <div className="col-sm-2 spaceless">
+                            <div id="img-frame" className="col-sm-2 spaceless">
                                 <img className="headshot addmargin" src="/img/headshot-100x140.jpg" alt="headshot" />
                             </div>
-                            <div className="col-sm-10 addmargin">
+                            <div id="text-frame" className="col-sm-10 addmargin">
                                 <p id="work-text">Financial Assistant for Northwestern University in the Alumni Relations
                                 and Development department. Contributions include identifying/improving onboarding 
                                 inefficiences, creating a travel calculator from compiled/analyzed travel data for 
@@ -33,13 +33,13 @@ var Home = React.createClass({
                             <hr />
                             <h4 id="personal"> Personal </h4>
                             <hr />
-                            <div className="col-sm-9 addmargin">
+                            <div id="bot-text-frame" className="col-sm-9 addmargin">
                                 <p id="personal-text"> Multi-instrumentalist, <a href="https://soundcloud.com/mike-realy">composer</a>, 
                                 songwriter, and private instructor with a BA in music composition from Columbia College 
                                 '13.   Sought out the Northwestern University Coding Bootcamp in order to learn skills 
                                 for the development of a website for private instrumental lesson planning and sharing. </p>
                             </div>
-                            <div className="col-sm-3 addmargin">
+                            <div id="bot-img-frame" className="col-sm-3 addmargin">
                                 <img className="headshot pull-right" src="/img/cellist.jpg" alt="cellist" />
                             </div>
                         </div>
