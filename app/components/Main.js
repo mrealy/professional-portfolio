@@ -21,11 +21,11 @@ var Main = React.createClass({
                                 <li><Link className="nav-links" to="/resume"> Resume </Link></li>
                             </ul>
                             <div id="social-media-buttons">
-                                <a href="https://github.com/mrealy">
+                                <a href="https://github.com/mrealy" target="blank">
                                     {/* github img icon */}
                                     <img className="github thumbnail" src="/img/github-128.png" alt="github" />
                                 </a>
-                                <a href="https://www.linkedin.com/in/michael-realy-97421149">
+                                <a href="https://www.linkedin.com/in/michael-realy-97421149" target="blank">
                                     {/* linkedin img icon */}
                                     <img className="linkedin thumbnail" src="/img/linkedin-128.png" alt="linkedin" />
                                 </a>

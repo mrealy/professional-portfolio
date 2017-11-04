@@ -9,8 +9,8 @@ var Show = React.createClass({
                     <p className="proj-details-btn pull-right" onClick={this.props.buttonClick}> Back to Projects </p>
                 </div>
                 <h3> Project Links </h3>
-                <a href={this.props.project.github}> Github link </a>
-                <a className="addpadding" href={this.props.project.heroku}> Open App </a>
+                <a href={this.props.project.github} target="blank"> Github link </a>
+                <a className="addpadding" href={this.props.project.heroku} target="blank"> Open App </a>
 
                 <h3> Goals </h3>
                 <p> {this.props.project.goals} </p>
