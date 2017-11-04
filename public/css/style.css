@@ -80,17 +80,20 @@ li {
 
 .project-image {
     margin: 0 auto;
-    width: 210px;
-    max-width: 100%;
+    position: absolute;
+    max-height: 100%;
+    /* max-width: 100%; */
     padding-top: 20px;
     display: block;
 }
 
 .project-img-border {
     border: 1px solid #007ab9;
+    position: relative;
     min-height: 150px;
     max-width: 210px;
     margin: 0 10px 0 10px;
+    overflow: hidden;
 }
 
 hr {
@@ -116,7 +119,9 @@ h4 {
     margin-top: 10px;
     margin-bottom: 10px;
 }
-
+.rmv-padding {
+    padding: 0px;
+}
 .frame {
     margin: 20px;
     background-color: white;

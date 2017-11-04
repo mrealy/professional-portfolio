@@ -5,8 +5,8 @@ var Show = React.createClass({
         return (
             <div className="container frame">
                 <div className="row">
-                    <h1 className="pull-left"> {this.props.project.title} </h1>
-                    <p className="proj-details-btn pull-right" onClick={this.props.buttonClick}> Back to Projects </p>
+                    <h1 className="pull-left addmargin"> {this.props.project.title} </h1>
+                    <p className="proj-details-btn pull-right addmargin" onClick={this.props.buttonClick}> Back to Projects </p>
                 </div>
                 <h3> Project Links </h3>
                 <a href={this.props.project.github} target="blank"> Github link </a>
@@ -17,13 +17,13 @@ var Show = React.createClass({
 
                 <h3> Screen shots </h3>
                 <div className="row">
-                    <div className="col-sm-3">
+                    <div className="col-sm-3 project-img-border rmv-padding">
                         <img className="project-image" src={this.props.project.screenshots[0]} />
                     </div>
-                    <div className="col-sm-3">
+                    <div className="col-sm-3 project-img-border rmv-padding">
                         <img className="project-image" src={this.props.project.screenshots[1]} />
                     </div>
-                    <div className="col-sm-3">
+                    <div className="col-sm-3 project-img-border rmv-padding">
                         <img className="project-image" src={this.props.project.screenshots[2]} />
                     </div>
                 </div>
